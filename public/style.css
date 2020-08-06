@@ -1,0 +1,73 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#brand-logo {
+  text-align: center;
+}
+
+.carousel-item {
+  visibility: visible;
+}
+
+.nav-wrapper {
+  background-color: rgba(14, 24, 14, 0.507);
+}
+
+#carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.footer {
+  background-color: rgba(14, 24, 14, 0.507);
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+ul#horizontal-list li {
+  display: inline;
+  font-size: 50px;
+}
+
+#ico {
+  height: 100%;
+  padding-left: 50px;
+}
+
+ul {
+  text-align: center;
+}
