@@ -16,6 +16,7 @@ function Home() {
           <p id="brand-logo">Projects</p>
         </div>
       </nav>
+      <p>You miss 100% of the shots you don't take - Wayne Gretzky</p>
       <div className="carousel">
         <div className="container" id="carousel-container">
           <a
@@ -82,6 +83,7 @@ function Home() {
           </a>
         </div>
       </div>
+      <p>HELLO I AM JEREMIAH</p>
       <footer className="page-footer custom footer">
         <div className="container">
           <div className="row">
