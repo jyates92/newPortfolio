@@ -10,13 +10,14 @@ function Home() {
           className="circle responsive-img z-depth-2"
         />
       </div>
-
+      <p className="">
+        You miss 100% of the shots you don't take - Wayne Gretzky
+      </p>
       <nav>
         <div className="nav-wrapper">
           <p id="brand-logo">Projects</p>
         </div>
       </nav>
-      <p>You miss 100% of the shots you don't take - Wayne Gretzky</p>
       <div className="carousel">
         <div className="container" id="carousel-container">
           <a
@@ -25,19 +26,21 @@ function Home() {
           >
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="../Quiz.JPG" alt="" />
+                <img
+                  className="activator"
+                  src="https://i.imgur.com/kpmlmqP.jpg"
+                  alt=""
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Card Title<i className="material-icons right">more_vert</i>
+                  Quiz Game
                 </span>
-                <p>Deployed Page</p>
               </div>
               <div className="card-reveal">
                 <span className="card-title grey-text text-darken-4">
                   Card Title<i className="material-icons right">close</i>
                 </span>
-                <p>This is a fun little quiz I put together</p>
               </div>
             </div>
           </a>
@@ -47,20 +50,19 @@ function Home() {
           >
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="../Quiz.JPG" alt="" />
+                <img
+                  className="activator"
+                  src="
+                  https://i.imgur.com/SRh2pSA.jpg"
+                  alt=""
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Card Title<i className="material-icons right">more_vert</i>
+                  Weather App
                 </span>
-                <p>Deployed Page</p>
               </div>
-              <div className="card-reveal">
-                <span className="card-title grey-text text-darken-4">
-                  Card Title<i className="material-icons right">close</i>
-                </span>
-                <p>This is a fun little Weather App I put together</p>
-              </div>
+              <div className="card-reveal"></div>
             </div>
           </a>
           <a
@@ -69,73 +71,66 @@ function Home() {
           >
             <div className="card">
               <div className="card-image waves-effect waves-block waves-light">
-                <img className="activator" src="../Quiz.JPG" alt="" />
+                <img
+                  className="activator"
+                  src="https://i.imgur.com/6M1Cnrv.jpg"
+                  alt=""
+                />
               </div>
               <div className="card-content">
                 <span className="card-title activator grey-text text-darken-4">
-                  Card Title<i className="material-icons right">more_vert</i>
+                  Password Generator
                 </span>
               </div>
-              <span className="card-title grey-text text-darken-4">
-                Card Title<i className="material-icons right">close</i>
-              </span>
             </div>
           </a>
         </div>
       </div>
       <p>HELLO I AM JEREMIAH</p>
       <footer className="page-footer custom footer">
-        <div className="container">
-          <div className="row">
-            <div className="section container">
-              <div className="row center-align">
-                <ul
-                  className="social-network social-circle justify-content-center"
-                  id="horizontal-list"
-                >
-                  <li>
-                    <a
-                      href="https://github.com/jyates92"
-                      className="icoGit"
-                      title="Git"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      id="ico"
-                    >
-                      <i className="fab fa-github"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="./Resume.pdf"
-                      className="icoPdf"
-                      title="PDF"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      id="ico"
-                    >
-                      <i className="fas fa-file-pdf"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/jeremiah-yates/"
-                      className="icoLinkedin"
-                      title="Linkedin"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      id="ico"
-                    >
-                      <i className="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="footer-copyright">
-          <div className="container">© 2020 Jeremiah Yates</div>
+          <p>© 2020 Jeremiah Yates</p>
+          <ul
+            className="social-network social-circle justify-content-center"
+            id="horizontal-list"
+          >
+            <li>
+              <a
+                href="https://github.com/jyates92"
+                className="icoGit"
+                title="Git"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="ico"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="./Resume.pdf"
+                className="icoPdf"
+                title="PDF"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="ico"
+              >
+                <i className="fas fa-file-pdf"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/jeremiah-yates/"
+                className="icoLinkedin"
+                title="Linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="ico"
+              >
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
